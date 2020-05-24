@@ -1,0 +1,511 @@
+
+
+body{
+	font-family: 'Pacifico', cursive !important;
+}
+
+
+.brand-text{
+	color: white !important;
+	font-size: 25px !important;
+	font-weight: 800;
+	cursor: pointer !important;
+}
+
+
+.container{
+	padding: 80px 120px;
+}
+
+
+
+/*NAV BAR*/
+/* Add a dark background color with a little bit see-through */ 
+.navbar {
+	margin-bottom: 0;
+	background-color: #000 !important;
+	/*border: 0;*/	
+	opacity: 0.9;
+	max-height: 100% !important;
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand { 
+	color: #d5d5d5 !important;
+}
+
+.navbar li a:hover{
+	font-size: 20px;
+	transition: 0.1s;
+}
+
+.navbar-collapse{
+	padding: 10px 0 0 0;
+	font-size: 16px !important;
+	font-weight: 700;
+	letter-spacing: 5px;
+
+}
+.navbar-header{
+	padding: 0 0 35px 0;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+	color: #fff !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+	color: #fff !important;
+	background-color:#29292c !important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+}
+
+/* Dropdown */
+.open .dropdown-toggle {
+	color: #fff ;
+	background-color: #000 !important;
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+	color: #d5d5d5 !important;
+	background-color: #000 !important;
+}
+
+.dropdown-menu {
+	font-size: 19px !important;
+	background-color: #000 !important;
+}
+
+/* On hover, the dropdown links will turn red */
+.dropdown-menu li a:hover {
+	background-color: #202020 !important;
+}
+	/*END NAV BAR*/
+
+
+
+
+
+/*CAROUSEL*/
+.carousel-inner img {
+  
+  width: 100%; 
+  margin: auto;
+}
+
+.carousel-caption {
+  color: #F80000 !important;
+  text-shadow: 2px 2px  rgba(0, 0, 0, 0.8) !important;
+
+}
+.carousel-control.right, .carousel-control.left {
+  background-image: none !important;
+  color: #8A2121 !important;
+  
+}
+.caption{
+	font-size: 50px !important;
+}
+
+/*.carousel-caption h1 {
+	position: relative;
+	right: 35%;
+	bottom: 1;
+}*/
+
+@media (max-width: 600px)  {
+  .carousel-caption {
+    display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+  }
+
+  .item img{
+  	height: 550px !important;
+  }
+}
+
+/*END CAROUSEL*/
+
+/*SERVICIOS*/
+.box-svs{
+	background-image: url('../imagenes/367502-PAXLKG-681.jpg') !important;
+	background-attachment: fixed;
+	background-size: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	padding: 0 0 50px 0;
+}
+
+.caption-svs{
+	color: black;
+	font-size: 25px !important;
+	
+}
+.caption-text-svs{
+	color: #000 !important;
+	font-size: 18px !important;
+	font-weight: 400; 
+}
+
+.byzen{
+	font-size: 20px !important;
+	
+}
+
+
+.caption-svs h1{
+	font-size: 50px !important;
+	font-weight: 600 !important;
+	text-shadow: 1px 1px 1px rgba(0,0,0,1) !important;
+}
+
+.thumbnail{
+	padding: 0px 0px 15px 0px !important;
+    border: none !important; 
+    border-radius: 0 !important;
+    background: #fff !important;
+}
+.thumbnail p{
+	margin-top: 5px;
+    color: #555;
+}
+.responsive-img{
+	width: 100% !important;
+}
+
+.img-svs{
+	filter: grayscale(50%);
+}
+.byzen{
+	color: #555 !important;
+	font-weight: 500;
+}
+
+.btn {
+    padding: 10px 20px !important;
+    background-color: #333 !important;
+    color: #f1f1f1 !important;
+    border-radius: 0 !important;
+    transition: .2s !important;
+  }
+  .btn:hover, .btn:focus {
+    border: 1px solid #333 !important;
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+
+.box-price{
+	color: #D10707 !important;
+	font-size: 24px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,1);
+}
+
+.img-svs:hover{
+	filter: grayscale(0);
+	filter: brightness(0.8);
+	filter: contrast(1.3);
+	cursor: pointer;
+}
+/*END SERVICIOS*/
+
+/*MODAL*/
+
+.thumbnail-modal{
+	padding: 0px 0px 15px 0px !important;
+    border: none !important; 
+    border-radius: 0 !important;
+}
+
+
+
+
+
+
+
+.modal-header, h4, .close {
+  background-color: #333;
+  color: #fff !important;
+  text-align: center;
+  font-size: 30px !important;
+}
+
+.modal-header, .modal-body {
+  padding: 40px 50px;
+}
+
+.modal-row-body{
+	display: flex !important;
+	flex-direction: row !important;
+	justify-content: center !important;
+}
+
+.modal-image{
+
+}
+
+.modal-desc{
+	display: flex !important;
+	justify-content: center !important;
+	align-items: center !important;
+}
+
+.detalle-desde{
+	font-size: 25px;
+	font-weight: 600;
+	color: #000 !important;
+}
+
+.valor{
+	color: #000;
+	font-size: 35px;
+	font-weight: 800;
+}
+
+.detalle-antes{
+	color: #000;
+	font-size: 18px;
+	text-decoration: line-through;
+	font-weight: 400;
+}
+
+.list-svs{
+	color: #852B2B !important;
+	font-size: 20px !important;
+}
+.modal-content{
+		background-image: url('../imagenes/fondo-madera2.jpg') !important;
+		background-attachment: fixed !important;
+	background-size: auto !important;
+	-webkit-background-size: cover !important;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+}
+
+.modal-body{
+	color: #000;
+	font-size: 25px;
+}
+
+.collapse{
+	font-size: 20px;
+	padding-left: 10px; 
+}
+
+
+.byzen-salon{
+	font-size: 25px;
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+.collapse-text{
+	font-size: 20px;
+	color: #333232;
+}
+
+.collapse-text-incluye{
+	text-decoration: underline;
+	font-weight: 400;
+}
+.list-svs {
+	list-style: none;
+}
+
+.item-gift{
+	color: #802626;
+	font-size: 20px;
+}
+/*END MODAL*/
+/*COMENTARIOS*/
+
+.carousel-indicators li {
+  border-color: #8A2121 !important;
+}
+.carousel-indicators li.active {
+  background-color: #8A2121 !important;
+}
+
+
+.item h4 {
+  font-size: 24px !important; 
+  margin: 70px 0 !important;
+  color: #000 !important;
+  font-weight: 700 !important;
+  background-color: transparent !important;
+}
+.caption-opiniones{
+	color: #000;
+	font-weight: 800;
+}
+/*.bg-grey {
+  background-color: #3D3A3A !important;
+}*/
+
+#comentarios{
+	background-image: url('../imagenes/portada-comentarios.jpg') !important;
+	background-attachment: fixed;
+	background-size: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	padding: 100px 20px !important;
+}
+/*END COMENTARIOS*/
+
+
+/*CONTACTOS*/
+#contacto{
+	padding: 100px 50px;
+	border-top: 1px solid #333333 !important;
+
+}
+
+.bg-grey2{
+	background-color: #f6f6f6;
+}
+
+textarea{
+	resize: none;
+}
+
+
+.modal-header-contacto{
+	background-color: transparent; !important;
+	color: black !important;
+	border-bottom: 1px solid black !important;
+}
+
+.modal-header-contacto-h4{
+	background-color: transparent !important;
+	color: black !important;
+}
+
+.footer-modal-contacto{
+	border-top: 1px solid black !important;
+}
+
+.contacto-img{
+	
+}
+
+
+.contacto-p{
+	position: relative;
+	right: 140px;
+}
+
+/*END CONTACTOS*/
+
+
+
+
+/*MAPA*/
+
+.map{
+	height: 600px;
+}
+.googlemap{
+	width: 100% !important;
+	height: 100% !important;
+	filter: grayscale(0.8);
+	border-top: 1px solid #333333 !important;
+	border-bottom: 1px solid #333333 !important;
+}
+
+
+.googlemap:hover{
+	filter: grayscale(0.3);
+}
+/*END MAPA*/
+
+/*FOOTER1*/
+.footer1{
+	height: 300px;
+	background-color: #333333;
+	color: #fff;
+	padding-top: 60px;
+	font-size: 30px !important;
+}
+
+
+
+
+.facebook{
+	filter: grayscale(0.5);
+	width: 50px;
+	height: 50px;
+}
+
+.instagram{
+	filter: grayscale(0.5);
+	width: 50px;
+	height: 50px;
+}
+
+
+
+
+
+
+.facebook:hover{
+	cursor: pointer;
+	filter: grayscale(0);
+	width: 55px;
+	height: 55px;
+	transition: 0.2s;
+}
+
+.instagram:hover{
+	cursor: pointer;
+	filter: grayscale(0);
+	width: 55px;
+	height: 55px;
+	transition: 0.2s;
+}
+
+/*END FOOTER1*/
+
+
+/*FOOTER2*/
+.footer2{
+	height: 100px;
+	background-color: #2B2A2A;
+	color: #DFDFDF;
+	font-size: 18px;
+}
+
+
+/*END FOOTER2*/
+
+
+
+
+
+
+
+/*PRUEBA*/
+.box1{
+	border: 1px solid red;
+}
+
+.box2{
+	border: 1px solid blue !important;	
+}
+
+.box3{
+	border: 1px solid peru !important;	
+}
+
+.box4{
+	border: 1px solid #74CD85 !important;	
+}

@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+@import url('data:application/octet-stream;base64,QGZvbnQtZmFjZSB7CiAgZm9udC1mYW1pbHk6ICdGamFsbGEgT25lJzsKICBmb250LXN0eWxlOiBub3JtYWw7CiAgZm9udC13ZWlnaHQ6IDQwMDsKICBmb250LWRpc3BsYXk6IHN3YXA7CiAgc3JjOiBsb2NhbCgnRmphbGxhIE9uZScpLCBsb2NhbCgnRmphbGxhT25lLVJlZ3VsYXInKSwgdXJsKGh0dHBzOi8vZm9udHMuZ3N0YXRpYy5jb20vcy9mamFsbGFvbmUvdjYvWXE2Ui1MQ0FXQ1gzLTZLeTdGQUZyT0Y2bHcudHRmKSBmb3JtYXQoJ3RydWV0eXBlJyk7Cn0KQGZvbnQtZmFjZSB7CiAgZm9udC1mYW1pbHk6ICdLYXJsYSc7CiAgZm9udC1zdHlsZTogbm9ybWFsOwogIGZvbnQtd2VpZ2h0OiA0MDA7CiAgZm9udC1kaXNwbGF5OiBzd2FwOwogIHNyYzogbG9jYWwoJ0thcmxhJyksIGxvY2FsKCdLYXJsYS1SZWd1bGFyJyksIHVybChodHRwczovL2ZvbnRzLmdzdGF0aWMuY29tL3Mva2FybGEvdjcvcWtCYlh2WUM2dHJBVDdSVkx0ay50dGYpIGZvcm1hdCgndHJ1ZXR5cGUnKTsKfQo=');
+
+body{
+	/*font-family: 'Karla', sans-serif !important;*/
+	font-family: 'Karla', sans-serif;
+	font-family: 'Fjalla One', sans-serif;
+}
